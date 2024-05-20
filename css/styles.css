@@ -49,16 +49,11 @@ h1, h2{
 }
 
 .questions{
-    /*display: flex;
-    *//*flex-direction: column;
-    */
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
+    list-style: none;
+    padding: 0;
 }
 .question{
+    list-style: none;
     width: 100%;
     border-bottom: 1px solid hsl(292, 16%, 49%) ;
     display: inline-block;
@@ -84,11 +79,9 @@ h1, h2{
     height: 10em;
 }
 .question .header2{
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     padding: 5% 0;
-    /* background-color: lightcoral; */
 }
 .header2 h2{
     margin: 0 0 0 0;
