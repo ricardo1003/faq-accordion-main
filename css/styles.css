@@ -7,7 +7,7 @@ body{
     /* padding-bottom: 10em; */
 }
 .background{
-    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-image: url(../assets/images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -100,19 +100,19 @@ h1, h2{
 }
 .button div{
     width: 2em; height: 2em;
-    background: url(/assets/images/icon-plus.svg);
+    background: url(../assets/images/icon-plus.svg);
     background-repeat: no-repeat;
 }
 .question .header2 :hover + .button div{
-    background: url(/assets/images/icon-minus.svg);
+    background: url(../assets/images/icon-minus.svg);
     background-repeat: no-repeat;
 }
 .question .button div:hover{
-    background: url(/assets/images/icon-minus.svg);
+    background: url(../assets/images/icon-minus.svg);
     background-repeat: no-repeat;
 }
 .question .paragraph:hover ~ .button div{
-    background: url(/assets/images/icon-minus.svg);
+    background: url(../assets/images/icon-minus.svg);
     background-repeat: no-repeat;
 }
 .question .paragraph{
