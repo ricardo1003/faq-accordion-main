@@ -22,6 +22,7 @@ main{
     margin-bottom: 10em;
 }
 article{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
     display: inline-block;
     border-radius: .75rem;
     display: block;
