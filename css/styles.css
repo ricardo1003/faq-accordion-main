@@ -3,7 +3,31 @@ body{
     background-color: hsl(275, 100%, 97%);
     font-family: "Work sans";
 }
-
+/* .background{
+   position: absolute;
+   top: 0; left: 0;
+} */
+main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 10rem;
+}
+article{
+    display: inline-block;
+    border-radius: .75rem;
+    display: block;
+    left: 0;
+    background-color: white;
+    max-width: 40rem;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    -webkit-border-radius: .75rem;
+    -moz-border-radius: .75rem;
+    -ms-border-radius: .75rem;
+    -o-border-radius: .75rem;
+}
 
 
 
